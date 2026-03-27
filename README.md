@@ -6,7 +6,7 @@ This project showcases my skills, projects, and experience as a developer.
 ---
 
 ## 🚀 Live Demo
-👉 [View Portfolio](https://github.com/reddyPragnya/Pragnya-portfolio)
+👉 [View Portfolio](https://pragnyap.vercel.app)
 
 ---
 
