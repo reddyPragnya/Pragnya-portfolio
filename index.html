@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pragnya — Full Stack Developer</title>
+  <meta name="description" content="Full Stack Developer building scalable web applications with React and Generative AI.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-name">P<span>.</span></div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <div class="loader-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span id="nav-logo-name">P</span>ragnya<span>.</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        Hi, I'm<br><span class="accent" id="hero-name">Pragnya</span>
+      </h1>
+      <div class="hero-role" id="hero-role">Full Stack Developer</div>
+      <p class="hero-intro" id="hero-intro"></p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work ↓</a>
+        <a href="#" id="resume-btn" target="_blank" class="btn-outline">Download Resume ↗</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">Who I am</div>
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+         <p>I'm a final-year Computer Science &amp; Engineering student at Navodaya Institute of Technology with a strong academic record (CGPA 8.71) and a genuine passion for building things that work — from polished front-end interfaces to intelligent AI-powered backends.</p>
+        <p>During my internship at <span style="color:var(--text);font-weight:500">SpectoV</span>, I contributed to a real-world coding assistant for AR &amp; VR developers — integrating GenAI models to boost developer productivity. My projects range from an <span style="color:var(--text);font-weight:500">AI-powered automated newsroom agent</span> to a Python voice assistant, a LinkedIn post generator, and responsive web apps.</p>
+        <p>I'm actively seeking an entry-level software or AI role where I can contribute meaningfully from day one, grow fast, and build things that actually matter.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Internship</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="about-edu">
+          <h3>Education</h3>
+          <div id="edu-list"></div>
+        </div>
+        <div class="about-edu" style="margin-top:40px">
+          <h3>Certifications</h3>
+          <div class="certs-grid" id="certs-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">Where I've worked</div>
+    <h2 class="section-title">Work <span>Experience</span></h2>
+    <div class="timeline" id="experience-list"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">What I've built</div>
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!--  SKILLS -->
+  <section id="skills">
+    <div class="section-label">What I work with</div>
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid" id="skills-grid"></div>
+  </section>
+
+  <!-- CONTACT  -->
+  <section id="contact">
+    <div class="section-label">Get in touch</div>
+    <h2 class="section-title">Let's <span>Connect</span></h2>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Open to new opportunities</h3>
+        <p>Whether it's a job, internship, or collaboration — I'd love to hear from you. Let's build something great together.</p>
+        <div class="contact-links">
+          <div class="contact-link-item">
+            <div class="contact-link-icon">📍</div>
+            <span id="contact-location"></span>
+          </div>
+          <div class="contact-link-item">
+            <div class="contact-link-icon">📞</div>
+            <span id="contact-phone"></span>
+          </div>
+          <a id="contact-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+            <div class="contact-link-icon">in</div>
+            <span>LinkedIn Profile</span>
+          </a>
+          <a id="contact-github" href="#" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+            <div class="contact-link-icon">⌥</div>
+            <span>GitHub Profile</span>
+          </a>
+        </div>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input id="form-name" type="text" placeholder="Jane Smith" required />
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input id="form-email" type="email" placeholder="jane@example.com" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="form-message" rows="5" placeholder="Hi Pragnya, I'd love to connect…" required></textarea>
+        </div>
+        <div id="form-status" class="form-status" style="display:none"></div>
+        <button type="submit" class="form-submit">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">
+      <span id="footer-logo-name">P</span>ragnya<span style="color:var(--accent)">.</span>
+    </div>
+    <div class="footer-copy" id="footer-copy"></div>
+    <div class="footer-socials">
+      <a id="footer-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="footer-social" title="LinkedIn">in</a>
+      <a id="footer-github" href="#" target="_blank" rel="noopener noreferrer" class="footer-social" title="GitHub">⌥</a>
+    </div>
+  </footer>
+
+  <script src="constants.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
