@@ -3,7 +3,7 @@ const DATA = {
   role: "Full Stack Developer",
   intro: "Building scalable web applications with React & Generative AI.",
   tagline: "CS Engineering student passionate about software development and AI-powered solutions.",
-  resume: "https://drive.google.com/file/d/1u35gYt8lrHdSkDIW4VAgj9i6Fie0YWN1/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1OYPKUZu6U0gQ6nyUBEbr3UAZyu9_prZk/view?usp=drive_link",
   contact: {
     location: "Raichur, Karnataka",
     phone: "+91 8867419535",
@@ -11,11 +11,12 @@ const DATA = {
     linkedin: "https://www.linkedin.com/in/pragnyap",
     github: "https://github.com/reddyPragnya"
   },
-  skills: {
-    "Programming Languages": ["Python", "Java", "JavaScript", "SQL"],
-    "Web Technologies": ["HTML", "CSS", "React"],
-    "Databases": ["MongoDB"],
-    "Soft Skills": ["Problem Solving", "Teamwork", "Communication", "Strategic Planning", "Adaptability"]
+    skills: {
+    "Languages": ["Java", "Python", "JavaScript", "SQL"],
+    "Frameworks": ["Spring Boot", "Spring Security", "React.js"],
+    "Databases": ["MySQL", "MongoDB"],
+    "AI & APIs": ["Google Gemini API", "NLP", "REST APIs"],
+    "Tools": ["Git", "GitHub", "Maven", "Postman", "IntelliJ IDEA", "VS Code"]
   },
   experience: [
     {
@@ -128,7 +129,7 @@ const DATA = {
     }
   ],
   education: [
-    { degree: "B.E. in CSE", institute: "Navodaya Institute of Technology", year: "2022–Present", score: "CGPA: 8.72" },
+    { degree: "B.E. in CSE", institute: "Navodaya Institute of Technology", year: "2022–2026", score: "CGPA: 8.88" },
     { degree: "2nd PUC", institute: "Sri Chaitanya PU College", year: "2020–2022", score: "Score: 8.7" },
     { degree: "10th Grade", institute: "Sri Chaitanya Techno School", year: "2019–2020", score: "Score: 8.5" }
   ],
