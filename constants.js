@@ -31,6 +31,20 @@ const DATA = {
     }
   ],
   projects: [
+        {
+      name: "CareerBridge AI",
+      tag: "Full-Stack AI Portal",
+      year: "2026",
+      description: "Intelligent campus placement platform featuring automated resume ATS reviews, match eligibility prediction, dynamic learning path advisor, and recruiter-admin workflow management.",
+      points: [
+        "Developed a decoupled 3-tier architecture with a React.js client interface and a Spring Boot REST API layer secured with stateless JWT token filters.",
+        "Engineered a polyglot database model using MySQL for transactional tables (interviews, applications, jobs) and MongoDB (GridFS) for storing and streaming resume PDF binaries.",
+        "Integrated Google Gemini AI alongside Apache PDFBox to automate candidate resume parsers, calculate job description compatibility, and render dynamic career roadmaps."
+      ],
+      tech: ["React.js", "Spring Boot", "MySQL", "MongoDB", "Generative AI", "JWT"],
+      live: null, // (You can replace this with your live URL tomorrow once deployed!)
+      github: "https://github.com/reddyPragnya/careerbridge-ai-placement-portal"
+    },
     {
       name: "Auto Newsroom Agent System",
       tag: "Final Year Project",
